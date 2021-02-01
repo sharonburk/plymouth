@@ -99,7 +99,8 @@ h1, h2, h3 {
 }
 
 .features-pic {
-  width: 150px;margin-bottom: 1rem;
+  width: 150px;
+  margin-bottom: 1rem;
 }
 
 .icon {
@@ -232,13 +233,57 @@ h1, h2, h3 {
     text-align: center;
   }
 
+  #footer {
+    font-size: 3.5rem;
+  }
+
   .title-image {
     position: static;
     transform: rotate(0);
   }
 
   body {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
+
+h1,h2,h3 {
+  font-size: 3.5rem;
+}
+
+.big-heading {
+  font-size: 4rem;
+}
+
+.navbar-brand {
+  font-size: 3.5rem;
+}
+
+.nav-link {
+  font-size: 3rem;
+}
+
+.features-heading {
+  font-size: 3.5rem;
+}
+
+.features-heading-heart {
+  font-size: 3.5rem;
+}
+
+.testimonial-text {
+font-size: 3rem;
+}
+
+.room-title {
+  font-size: 3.5rem;
+}
+
+.rooms-heading {
+  font-size: 3rem;
+}
+
+.album-heading-text {
+  font-size: 3rem;
+
 
 }
