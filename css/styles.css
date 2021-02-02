@@ -138,7 +138,7 @@ h1, h2, h3 {
   font-weight: 900;
   font-size: 2rem;
   line-height: 1.5;
-  height: 200px;
+  /* height: 200px; */
 }
 
 .testimonial-pic {
@@ -317,10 +317,10 @@ max-width: 22%;
 padding-top: 10px;
 }
 
-
+/*
 .testimonial-text {
-  height: 500px;
-}
+  height: 400px;
+} */
 
 .testimonial-pic {
   padding-top: 10px;
