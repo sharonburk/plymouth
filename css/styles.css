@@ -89,14 +89,11 @@ h1, h2, h3 {
   position: relative;
 }
 
-.features-heading {
+.features-heading, .features-heading-heart {
   font-size: 1.5rem;
 }
 
-.features-heading-heart {
-  font-size: 1.5rem;
-  margin-top: 10px;
-}
+
 
 .features-pic {
   width: 150px;
@@ -106,7 +103,13 @@ h1, h2, h3 {
 .icon {
   color: #ffa62b;
   margin-bottom: 1rem;
+  height: 150px;
+  width: 200px;
+  font-size: 120px;
+  position: relative;
+  margin-right: 20px;
 }
+
 
 .icon:hover {
   color: #db6400;
@@ -114,8 +117,8 @@ h1, h2, h3 {
 
 .feature-box {
   padding: 5%;
-
 }
+
 
 
 
@@ -135,6 +138,7 @@ h1, h2, h3 {
   font-weight: 900;
   font-size: 2rem;
   line-height: 1.5;
+  height: 200px;
 }
 
 .testimonial-pic {
@@ -143,9 +147,6 @@ h1, h2, h3 {
   margin: 20px;
 }
 
-/* .carousel-inner {
-  height: 600px;
-} */
 
 /* Press Section */
 #press {
@@ -161,6 +162,10 @@ h1, h2, h3 {
   margin-bottom: 1rem;
   border-radius: 10%;
   margin-right: 30px;
+}
+
+.press-box {
+  margin-top: 20px;
 }
 
 /* Rooms Info Section */
@@ -200,6 +205,11 @@ h1, h2, h3 {
   border-width: thick;
 }
 
+
+.card-body {
+  padding: 0;
+}
+
 .album-heading-text {
   color: #fff;
   padding: 2% 15%;
@@ -232,58 +242,88 @@ h1, h2, h3 {
   #title {
     text-align: center;
   }
-
-  #footer {
-    font-size: 3.5rem;
-  }
-
   .title-image {
     position: static;
     transform: rotate(0);
   }
 
-  body {
-    font-size: 3rem;
-  }
+/* Font sizing Changes of text and headings*/
 
-h1,h2,h3 {
+p, .card-text,  .testimonial-em  {
+  font-size: 2.5rem;
+}
+
+#footer, body,.nav-link, .rooms-heading,  .room-heading  {
+  font-size: 3rem;
+}
+
+ .navbar-brand, .features-heading, .features-heading-heart, .room-title,  .album-heading-text, .testimonial-text  {
   font-size: 3.5rem;
 }
 
 .big-heading {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 
-.navbar-brand {
-  font-size: 3.5rem;
+/* Sizing changes of images */
+
+.title-image {
+  height: 500px;
+  width: 500px;
 }
 
-.nav-link {
-  font-size: 3rem;
+.features-pic {
+  height: 300px;
+  width: 300px;
 }
 
-.features-heading {
-  font-size: 3.5rem;
+.testimonial-pic {
+  height: 150px;
+  max-width: 25%;
 }
+
+.icon {
+  font-size: 200px;
+}
+
+
+.press-logo {
+height: 180px;
+max-width: 22%;
+}
+
+.navbar-toggler-icon {
+  font-size: 50px;
+  }
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  font-size: 30px;
+}
+
+.btn {
+  font-size: 30px;
+}
+/* Physical changes in order of appearance */
+
+
+.title-image {
+  height: 500px;
+  width: 500px;
+  margin-top: 80px;
+
 
 .features-heading-heart {
-  font-size: 3.5rem;
+padding-top: 10px;
 }
+
 
 .testimonial-text {
-font-size: 3rem;
+  height: 500px;
 }
 
-.room-title {
-  font-size: 3.5rem;
+.testimonial-pic {
+  padding-top: 10px;
 }
-
-.rooms-heading {
-  font-size: 3rem;
-}
-
-.album-heading-text {
-  font-size: 3rem;
-
 
 }
